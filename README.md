@@ -95,3 +95,21 @@ gpc.fit(X_train, y_train)
 
 accuracy = gpc.score(X_test, y_test)
 print(f"GPC Accuracy: {accuracy:.4f}")
+
+📈 Results Summary
+Model	Accuracy	Uncertainty Estimation
+GPC	94.12%	✅ Strong uncertainty quantification
+BLR	TBD	✅ Provides feature importance
+BNN	Optimized	✅ Best trade-off via threshold tuning
+🚀 Final Recommendation:
+
+GPC is highly accurate but may need validation to check for overfitting.
+BNN provides more control with optimized threshold tuning.
+BLR helps in understanding which features are important.
+📌 Future Work
+🔹 EEG Feature Integration: Expand the model to incorporate brainwave activity.
+🔹 Hybrid Bayesian Models: Combine GPC, BLR, and BNN for multimodal fusion.
+🔹 Clinical Validation: Test the framework on real-world depression screening data.
+
+📜 Citations
+If you use this work, please cite:
