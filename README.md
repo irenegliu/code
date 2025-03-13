@@ -118,24 +118,24 @@ y_pred = (y_pred_probs > threshold).float()
 
 ## 📈 **Results Summary**
 
-Model	       Accuracy	       Uncertainty Estimation
-GPC	         94.12%	         ✅ Strong uncertainty quantification
-BLR	         TBD	           ✅ Provides feature importance
-BNN	         Optimized	     ✅ Best trade-off via threshold tuning
+| **Model** | **Accuracy** | **Uncertainty Estimation** |
+|--------------|-------------|--------------|
+| **GPC** | **94.12%** | ✅ **Strong uncertainty quantification** |
+| **BLR** |	**TBD** | ✅ **Provides feature importance** |
+| **BNN** |	**Optimized** | ✅ **Best trade-off via threshold tuning** |
 
 🚀 **Final Recommendation:**
-
-GPC is highly accurate but may need validation to check for overfitting.
-BNN provides more control with optimized threshold tuning.
-BLR helps in understanding which features are important.
+- GPC is highly accurate but may need validation to check for overfitting.
+- BNN provides more control with optimized threshold tuning.
+- BLR helps in understanding which features are important.
 
 ## 📌 **Future Work**
-🔹 EEG Feature Integration: Expand the model to incorporate brainwave activity.
-🔹 Hybrid Bayesian Models: Combine GPC, BLR, and BNN for multimodal fusion.
-🔹 Clinical Validation: Test the framework on real-world depression screening data.
+- 🔹 EEG Feature Integration: Expand the model to incorporate brainwave activity.
+- 🔹 Hybrid Bayesian Models: Combine GPC, BLR, and BNN for multimodal fusion.
+- 🔹 Clinical Validation: Test the framework on real-world depression screening data.
 
 📜 **Citations**
- Wav2Vec 2.0: https://arxiv.org/abs/2006.11477
- EEGPT: https://openreview.net/forum?id=lvS2b8CjG5
- EEG: https://www.nature.com/articles/s41597-022-01211-x
+- Wav2Vec 2.0: https://arxiv.org/abs/2006.11477
+- EEGPT: https://openreview.net/forum?id=lvS2b8CjG5
+- EEG: https://www.nature.com/articles/s41597-022-01211-x
  
